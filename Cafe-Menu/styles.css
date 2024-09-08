@@ -28,6 +28,13 @@ h2 {
   padding: 20px;
 }
 
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -25px;
+}
+
 hr {
   height: 2px;
   background-color: gold;
@@ -73,9 +80,10 @@ footer {
   font-size: 14px;
 }
 
-.address{
+.address {
   margin-bottom: 5px;
 }
+
 a {
   color: black;
 }
