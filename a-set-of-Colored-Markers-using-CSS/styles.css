@@ -13,50 +13,59 @@ h1 {
     margin: 10px auto;
 }
 
-.red{
+.red {
     background-color: rgb(255, 0, 0);
 }
 
-.green{
-    background-color: rgb(0, 255, 0);
+.green {
+    background-color: #00ff00;
 
 }
 
-.blue{
-    background-color: rgb(0, 0, 255);
+.blue {
+    background-color: hsl(240, 100%, 50%);
 }
 
-.yellow{
+.yellow {
     background-color: rgb(255, 255, 0);
 }
 
-.cyan{
+.cyan {
     background-color: rgb(0, 255, 255);
 }
 
-.magenta{
+.magenta {
     background-color: rgb(255, 0, 255);
 }
-.black{
+
+.black {
     background-color: rgb(0, 0, 0);
 }
-.orange{
+
+.orange {
     background-color: rgb(255, 127, 0);
 }
 
-.spring_green{
+.spring_green {
     background-color: rgb(0, 255, 127);
 }
 
-.violet{
+.violet {
     background-color: rgb(127, 0, 255);
 }
-.chartreuse_green{
+
+.chartreuse_green {
     background-color: rgb(127, 255, 0);
 }
-.azure{
+
+.azure {
     background-color: rgb(0, 127, 255);
 }
-.rose{
+
+.rose {
     background-color: rgb(255, 0, 127);
+}
+
+.gradient_color {
+    background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
 }
