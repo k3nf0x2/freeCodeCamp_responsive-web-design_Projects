@@ -13,62 +13,84 @@ h1 {
     margin: 10px auto;
 }
 
+.cap {
+    width: 60px;
+    height: 25px;
+}
+
 .sleeve {
     width: 110px;
     height: 25px;
     background-color: rgba(255, 255, 255, 50%);
-    opacity: 0.5;
+    border-left: 10px double rgba(0, 0, 0, 75%);
+}
+
+.cap,
+.sleeve {
+    display: inline-block;
 }
 
 .red {
     background: linear-gradient(rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
 }
 
 .green {
     background: linear-gradient(#55680D, #71F53E, #116C31);
-
+    box-shadow: 0 0 20px 0 #3b7e20cc;
 }
 
 .blue {
     background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
 }
 
 .yellow {
     background: linear-gradient(#cfcf00, #ffff00, #cfcf00);
+    box-shadow: 0 0 20px 0 #999900cc;
 }
 
 .cyan {
     background: linear-gradient(#00cfcf, #00ffff, #00cfcf);
+    box-shadow: 0 0 20px 0 #009999cc;
 }
 
 .magenta {
     background: linear-gradient(#cf00cf, #ff00ff, #cf00cf);
+    box-shadow: 0 0 20px 0 #990099cc;
 }
 
 .black {
     background: linear-gradient(#111111, #000000, #111111);
+    box-shadow: 0 0 20px 0 #222222cc;
 }
 
 .orange {
     background: linear-gradient(#cf6900, #ff9900, #cf6900);
+    box-shadow: 0 0 20px 0 #993300cc;
 }
 
 .spring_green {
     background: linear-gradient(#00cf69, #00ff99, #00cf69);
+    box-shadow: 0 0 20px 0 #009933cc;
 }
 
 .violet {
     background: linear-gradient(#6900cf, #9900ff, #6900cf);
+    box-shadow: 0 0 20px 0 #330099cc;
 }
 
 .chartreuse_green {
     background: linear-gradient(#69cf00, #99ff00, #69cf00);
+    box-shadow: 0 0 20px 0 #339900cc;
 }
 
 .azure {
     background: linear-gradient(#0069cf, #0099ff, #0069cf);
+    box-shadow: 0 0 20px 0 #003399cc;
 }
 
 .rose {
     background: linear-gradient(#cf0069, #ff0099, #cf0069);
+    box-shadow: 0 0 20px 0 #990033;
 }
