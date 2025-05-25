@@ -11,17 +11,21 @@
     <form action="https://regiter-demo.freecodecamp.org" method="post">
       <fieldset>
         <label for="first-name"
-          >Enter Your First Name: <input id="first-name" type="text" required
+          >Enter Your First Name:
+          <input name="first-name" id="first-name" type="text" required
         /></label>
         <label for="last-name"
-          >Enter Your Last Name: <input id="last-name" type="text" required
+          >Enter Your Last Name:
+          <input name="last-name" id="last-name" type="text" required
         /></label>
         <label for="email"
-          >Enter Your Email: <input id="email" type="email" required
+          >Enter Your Email:
+          <input name="email" id="email" type="email" required
         /></label>
         <label for="new-password"
           >Create a New Password:
           <input
+            name="new-password"
             id="new-password"
             type="password"
             pattern="[a-z0-5]{8,}"
@@ -35,21 +39,29 @@
             type="radio"
             name="account-type"
             id="personal-account"
+            class="inline"
             checked
           />
           Personal</label
         >
         <label for="business-account"
-          ><input type="radio" name="account-type" id="business-account" />
+          ><input
+            type="radio"
+            name="account-type"
+            id="business-account"
+            class="inline"
+          />
           Business</label
         >
       </fieldset>
       <fieldset>
         <label for="profile-picture"
-          >Upload a profile picture: <input type="file" id="profile-picture"
+          >Upload a profile picture:
+          <input name="profile-picture" type="file" id="profile-picture"
         /></label>
         <label for="age"
           >Input your age (years):<input
+            name="age"
             type="number"
             min="13"
             max="120"
@@ -58,7 +70,7 @@
         >
         <label for="referrer">
           How did you hear about us?
-          <select id="referrer">
+          <select name="referrer" id="referrer">
             <option value="">(select one)</option>
             <option value="1">freeCodeCamp News</option>
             <option value="2">freeCodeCamp YouTube Channel</option>
@@ -69,6 +81,7 @@
         <label for="bio"
           >Provide a bio:
           <textarea
+            name="bio"
             id="bio"
             rows="3"
             cols="30"
@@ -77,8 +90,12 @@
         </label>
       </fieldset>
       <label for="terms-and-conditions"
-        ><input type="checkbox" id="terms-and-conditions" required />I accept
-        the
+        ><input
+          name="terms-and-conditions"
+          type="checkbox"
+          id="terms-and-conditions"
+          required
+        />I accept the
         <a href="https://www.freecodecamp.org/news/terms-of-service/"
           >terms and conditions</a
         ></label
